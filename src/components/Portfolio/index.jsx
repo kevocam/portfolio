@@ -16,7 +16,8 @@ const Portfolio = () => {
         setImg2(data[e].images[1])
     } */
     return (
-        <div className="portfolio">            
+        <div className="portfolio">
+            
             {data.map((item ) =>  (
                 <Card
                 cover={item.cover}

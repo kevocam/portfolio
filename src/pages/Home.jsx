@@ -17,31 +17,25 @@ function Home() {
     let {theme, setTheme} = React.useContext(Context);   
     
     return (
-    <div className={`theme  ${theme ? 'dark-theme' : 'light-theme'}`}>  
-    
-        {/* <Loader /> */}
-        <Helmet>
-                <meta charSet="utf-8" />
+    <div className={`theme  ${theme ? 'dark-theme' : 'light-theme'}`}>         
+        <Helmet>                
                 <title>Albert Kevin Camargo Barreda</title>
                 <link rel="canonical" href="https://kevincamargo.com" />
-                <meta name="description" content="🚀 Albert Kevin Camargo Barreda - Web developer - Front end - Portafolio, Resume, Experiencia, Técnologias ReactJs, VuejS, Laravel"  />
+                <meta name="description" content="🚀 I'm Albert Kevin Camargo Barreda Front end Developer and this is my portafolio. I love JavaScript, ReactJs, VuejS, Laravel"  />
         </Helmet>
-
         <Header />                    
         <Hero />   
-            <Title title="Portafolio"/>
+            <Title title="Portafolio Desarrollador Front end"/>
         <Portfolio />
             <Title title="About me"/>
         <About />
             <Title title="Experiencia"/>
         <Experience />
-            <Title title="Tecnologías "/>
+            <Title title="Technologies "/>
         <Tecnologies />
-            <Title title="Hablamos?"/>
+            <Title title="Let's do it?"/>
         <Footer />
-
     </div>
     )
 }
-
 export default Home

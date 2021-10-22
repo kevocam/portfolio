@@ -16,7 +16,10 @@
     &__text{
     margin: 0px 32px;
     white-space: nowrap;
-    font-size:3.0rem;
+    font-size:2.5rem;
+    @media (min-width:700px){           
+        font-size:3.0rem;
+     }
     }
     &__lineBefore{
         height: 1px;

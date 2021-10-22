@@ -13,15 +13,18 @@ function About() {
                 {/* <img src={kevo} alt="Kevin Camargo" /> */}
             </div>
             <div className="about__me">
-                <p>
-                    Soy Desarrollador Web con un grado de Ingeniero de Sistemas, tengo más de 2 años de
-                    experiencia desarrollando aplicaciones web, desde el análisis, diseño y consumo
-                    servicios para integrarlo con el Front end desarrolle proyectos con tecnologías
-                    como Sass, JavaScript. ReactJS y VueJS, siguiendo las buenas prácticas de clean
-                    code, testing y metodologías ágiles.
-                </p>
-
                 
+                <p>
+                    - Hace unos años co-funde una empresa de desarrollo de software, donde mejoré la presencia digital de empresas públicas y privadas, proponiendo e implementando soluciones TI. Aumentamos en un 80% la retención de usuarios, facilitamos la comunicación entre
+                    equipos de trabajadores y su comunicación con su público objetivo. 
+                    
+                </p>
+                <p>
+                    - Colabore con equipos de desarrollo dando soporte, mantenimiento y creando nuevos aplicativos web en JavaScript, ReactJS, VueJs. Siguiendo buenas practicas, código limpio y testing.  
+                </p>
+                <p>
+                    
+                </p>
             </div>
             <div className="about__primes">
                 <p className="about__primes--badge">

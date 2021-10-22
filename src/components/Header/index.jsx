@@ -46,10 +46,10 @@ function Header() {
                         repeat: 2,
                         repeatType: 'reverse',
                     }}   animate={{ rotate: 140 }} x="4" y="4" width="16" height="16" rx="4" />
-                </motion.svg>
+                </motion.svg>               
             </div>
             <div className="header__toggle">
-                    <Switch className="theme__switch bounce-right"
+                    <Switch className="fade-in"
                         onChange={() => {setShow(!show)
                         setTheme(prevTheme => !prevTheme) 
                         }}

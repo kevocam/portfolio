@@ -21,22 +21,19 @@ function Hero() {
     return (
         <div className="hero">
             <div className="hero__content">
-                <spa className="hero__content--hi">Hi <span className="hero__content--hand">👋</span>, I'm</spa>
-                <div className="hero__content--title">
-                    <motion.svg version="1.1"
-                        width="100%" height="120"
-                        xmlns="http://www.w3.org/2000/svg">
-                    <text x="70" y="50" font-size="60" text-anchor="middle" fill={colorText}>Kevin </text>
-                    <text x="190" y="95" font-size="60" text-anchor="middle" fill={colorText}>Camargo </text>
-                    </motion.svg>
+                <p className="hero__content--hi">Hi <span className="hero__content--hand">👋</span>, I'm</p>
+                <div className="hero__content--title">                    
+                    <h1>
+                        Kevin Camargo 
+                    </h1>
                 </div>
                           
-                 <p className="hero__content--call">and make amazing webs!</p>
-                 <p className="hero__content--description"> Web developer, especialized in Front end, autodidact and love the sunsets .</p>
+                 <p className="hero__content--call">and make amazing webs!</p>                 
+                 <p className="hero__content--description">Front end developer con más de 2 años de experiencia desarrollando productos digitales con JavaScript, VueJs, ReactJs y Laravel.</p>
  
             </div>
-            <div className="hero__img">
-                <img src={imgDeveloper} alt="developer" />
+            <div className="hero__img ">
+                <img src={imgDeveloper} className="slide-fwd-center" alt="developer web" />
             </div>
         </div>
     )

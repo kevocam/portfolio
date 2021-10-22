@@ -20,8 +20,7 @@ function Card(props) {
         <div className="card">
             <div className="card__img" >   
             <Image
-                    preview={{ visible: false }}
-                    
+                    preview={{ visible: false }}                    
                             src={props.cover}
                             onClick={() => setVisible(true)}
                         />
@@ -35,7 +34,7 @@ function Card(props) {
             </div>    
             <div className="card__content">
                 <div className="card__content--title">
-                    <h2>{props.title}</h2>
+                    <h3>{props.title}</h3>
                 </div>
                 <div className="card__content--content">
                     <p>{props.description}</p>

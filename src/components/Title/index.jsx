@@ -7,9 +7,9 @@ function Title(props) {
             <div className="title__lineAfter">
             
             </div>
-            <h4 className="title__text">
+            <h2 className="title__text">
             {props.title}
-            </h4>
+            </h2>
             <div className="title__lineBefore">
 
             </div>
