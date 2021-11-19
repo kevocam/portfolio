@@ -48,12 +48,12 @@ function Experience() {
 
                     
                 </TabPane>
-                <TabPane tab="WapkyTI" key="3">
+                <TabPane tab="WalikyTI" key="3">
                         Mejoramos la presencia digital de empresas públicas y privadas brindando apoyo en desarrollo de software, posicionamiento web, infraestructura Cluod.
                         <br />
                         <br />
                         <p>                            
-                            - Incrementamos la comunicación entre el equipo y su público expecífico
+                            - Incrementamos la comunicación entre el equipo y su público expecífico.
                         </p>
                         <p>
                             - Integramos una plataforma educativa usada por más de 50 estudiantes diariamente.
