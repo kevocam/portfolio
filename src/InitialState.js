@@ -20,8 +20,8 @@ const InitialState =[
             cover:'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/cover_pasarela.png?alt=media&token=a20edeac-8df0-4775-8f03-c61732164909',
             description:"Gestiona tu seguro de vida para ti y tu familia. Un emulador de una pasarela de Gestión de seguro familiar.",
             stack:['React', 'Sass'],
-            github:"https://github.com/kevocam/CotizadorSeguroSalud",
-            online:'https://cotizador-seguros-react-kevo.netlify.app/',
+            github:"https://github.com/kevocam/cotiseguro",
+            online:'https://cotiseguros-kevo.netlify.app/',
             images:[
                 'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/seguro4.png?alt=media&token=e32f26ce-0e9c-4b9e-9f95-703e684744e5',                
                 'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/seguro1.png?alt=media&token=c01aacc2-c20b-4a6b-b8a2-11015d766706',            
@@ -82,13 +82,9 @@ const InitialState =[
                 'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/congresodau4.png?alt=media&token=fc77fa96-8405-4360-bdad-0d043e125320',            
                 'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/congresodau3.png?alt=media&token=71b5005a-53da-45e4-b20c-d98182d68c79',
                 'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/congresodau1.png?alt=media&token=b10d470d-8a85-4da1-a483-3305daa26103',
-                'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/congresodau2.png?alt=media&token=395f144a-4977-47f6-995d-a1d1691954e4'
-                
-            ]
-            
-        },
-        
-        
+                'https://firebasestorage.googleapis.com/v0/b/portfolio-b1763.appspot.com/o/congresodau2.png?alt=media&token=395f144a-4977-47f6-995d-a1d1691954e4'                
+            ]            
+        },       
     ]
 
 export default InitialState;
